@@ -75,7 +75,7 @@ const TicTacToe = () => {
         data = ["","","","","","","","",""];
         titleRef.current.innerHTML =`Tic Tac Toe Game In <span>React Js</span`; 
         box.map((e)=>{
-            e.current.innerHTML = "";
+         return   e.current.innerHTML = "";
         })
     }
   return (
